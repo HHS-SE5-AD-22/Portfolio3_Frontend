@@ -68,7 +68,7 @@ export default defineComponent({
 
 <style scoped>
 .menu-item {
-  @apply sm:inline-block sm:mt-0 block mt-4 mr-4 text-white text-lg text-center
+  @apply sm:inline-block sm:mt-0 block mt-4 mr-4 text-white text-xl text-center
        hover:text-green font-bold transition-all duration-200;
 }
 .router-link-active {
