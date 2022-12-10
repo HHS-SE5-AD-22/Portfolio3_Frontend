@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1 class="mb-4">Home</h1>
-  </div>
+
+    <h1 class="page-title">Dit is de front end applicatie voor portfolio 4</h1>
+
 </template>
 
 <script lang="ts">
@@ -16,3 +16,9 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss">
+.page-title {
+  @apply text-xl;
+}
+</style>
