@@ -25,6 +25,7 @@
           <router-link class="menu-item" to="/">Home</router-link>
         </div>
         <div>
+          <router-link class="menu-item" to="/dashboards">Dashboards</router-link>
           <router-link class="menu-item" to="/login">Inloggen</router-link>
           <router-link class="menu-item" to="/register">Registreren</router-link>
         </div>
