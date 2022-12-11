@@ -4,14 +4,13 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script>
 
-export default defineComponent({
+export default {
   name: 'TheDashboard',
-  methods: {
-  },
-});
+  methods: {}
+}
+
 </script>
 
 <style lang="scss">

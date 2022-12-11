@@ -34,9 +34,6 @@
 export default {
   name: 'HomeView',
   methods: {
-    viewCourses() {
-      this.$router.push({ name: 'Course' });
-    },
   },
 }
 </script>
