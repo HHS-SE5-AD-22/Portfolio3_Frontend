@@ -14,10 +14,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
+<script>
+export default {
   name: 'ToastMessage',
   props: {
     message: {
@@ -29,7 +27,7 @@ export default defineComponent({
       required: true,
     },
   },
-});
+};
 </script>
 
 <style scoped>

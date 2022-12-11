@@ -4,15 +4,14 @@
   </div>
 </template>
 
-<script lang="ts">
-import { createApp, defineComponent } from 'vue';
+<script>
+import { createApp } from 'vue';
 import ToastMessage from '@/components/text/ToastMessage.vue';
-import { MessageInterface } from '@/types/MessageInterface';
 
-export default defineComponent({
+export default {
   name: 'ToastWrapper',
   methods: {
-    createToast(message: MessageInterface) {
+    createToast(message) {
       const toast = createApp(ToastMessage, {
         message: message.message,
         messageType: message.messageType,
@@ -23,15 +22,14 @@ export default defineComponent({
       const wrapper = document.getElementById('toastWrapper');
       const div = document.createElement('div');
       wrapper?.appendChild(div);
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-      toast.mount(div!);
+      toast.mount(div);
 
       // Remove message in 10 seconds.
       setTimeout(() => {
         toast.unmount();
       }, 10000);
     },
-    convertStatusCodeToMessageType(message: MessageInterface) {
+    convertStatusCodeToMessageType(message) {
       let resultMessage;
       const firstNumber = Number(String(message.status)[0]);
 
@@ -68,10 +66,10 @@ export default defineComponent({
     },
   },
   watch: {
-    getCurrentMessage(newMessage: MessageInterface) {
+    getCurrentMessage(newMessage) {
       const message = this.convertStatusCodeToMessageType(newMessage);
       this.createToast(message);
     },
   },
-});
+};
 </script>

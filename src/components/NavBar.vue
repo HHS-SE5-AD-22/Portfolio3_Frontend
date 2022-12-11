@@ -33,11 +33,10 @@
   </nav>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script>
 import store from '@/store';
 
-export default defineComponent({
+export default {
   name: 'NavBar',
   data() {
     return {
@@ -63,7 +62,7 @@ export default defineComponent({
       store.dispatch('logout');
     },
   },
-});
+};
 </script>
 
 <style scoped>
@@ -75,6 +74,7 @@ export default defineComponent({
   @apply text-green underline;
 }
 .hamburger-menu {
-  @apply flex items-center px-3 py-2 fill-white transition-all duration-200;
+  @apply flex items-center px-3 py-2 transition-all duration-200;
+  fill: white;
 }
 </style>

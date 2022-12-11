@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/Home.vue';
 import RouteNotFoundView from '@/views/RouteNotFoundView.vue';
 
@@ -18,8 +18,8 @@ const publicRoutes = [
 const routes = [...publicRoutes];
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+  history: createWebHistory(process.env.BASE_URL),
+  routes
 });
 
 // eslint-disable-next-line no-unused-expressions
@@ -28,4 +28,5 @@ router.resolve({
   params: { pathMatch: ['/'] },
 }).href; // '/not/found'
 
-export default router;
+
+export default router
