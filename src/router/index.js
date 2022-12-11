@@ -1,18 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/Home.vue';
 import RouteNotFoundView from '@/views/RouteNotFoundView.vue';
-import Dashboard from '@/views/Dashboard.vue';
 
 const publicRoutes = [
   {
     path: '/',
     name: 'Home',
     component: HomeView,
-  },
-  {
-    path: '/dashboards',
-    name: 'dashboards',
-    component: Dashboard,
   },
   {
     path: '/:pathMatch(.*)*',
