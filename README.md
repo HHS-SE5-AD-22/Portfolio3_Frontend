@@ -4,10 +4,9 @@ Frontend van Portfolio 3
 
 De Frontend voor de applicatie is geschreven in:
 
-* Taal: TypeScript
-* Framework: VueJS 4
+* Taal: JavaScript
+* Framework: VueJS 3
 
-De applicatie wordt gehost op [AWS](https://aws.amazon.com/).
 
 ---
 
@@ -24,8 +23,6 @@ De applicatie wordt gehost op [AWS](https://aws.amazon.com/).
 - TailwindCSS
     - <b>Waarom:</b> We gebruiken TailwindCSS voor de opmaak van de website
     - <b>Hoe hebben we het toegepast:</b> We gebruiken TailwindCSS classes overal waar we CSS nodig hebben
-- Vee-validate
-    - <b>Waarom:</b> Validatie" 
 - ESLint (AirBnB)
     - <b>Waarom:</b> Juiste formattering van het project en voor error checking
     - <b>Hoe hebben we het toegepast:</b> Als je 'npm run lint' gebruikt gaat het automatisch voor je alle bestanden na voor mogelijke fouten

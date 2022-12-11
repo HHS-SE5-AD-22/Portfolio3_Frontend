@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="page-title">Dit is de front end applicatie voor portfolio 4</h1>
+    <h1 class="page-title">Dit is de front end applicatie voor portfolio 3</h1>
   </div>
 </template>
 
