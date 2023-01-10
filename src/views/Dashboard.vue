@@ -64,7 +64,7 @@ export default {
       switch (tabNumber) {
         case 1:
           viz = document.getElementById('tableauDescriptive');
-          src = "https://dub01.online.tableau.com/t/portfolio3/views/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen";
+          src = "https://dub01.online.tableau.com/t/portfolio3/views/Descriptivelijndiagram2/Staafdiagram";
           break;
         case 2:
           viz = document.getElementById('tableauDiagnostic');
