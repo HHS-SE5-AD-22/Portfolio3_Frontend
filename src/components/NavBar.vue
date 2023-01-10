@@ -11,23 +11,12 @@
         </button>
       </div>
       <!-- eslint-disable-next-line max-len -->
-      <div v-if="isAuthenticated" :class="open ? 'block': 'hidden'" class="flex-grow w-full sm:flex sm:items-center sm:w-auto">
-        <div class="text-sm sm:flex-grow">
-          <router-link class="menu-item" to="/">Home</router-link>
-        </div>
-        <div v-if="loggedIn">
-          <router-link class="menu-item" to="/login" @click="logout">Uitloggen</router-link>
-        </div>
-      </div>
-      <!-- eslint-disable-next-line max-len -->
-      <div v-else :class="open ? 'block': 'hidden'" class="flex-grow w-full sm:flex sm:items-center sm:w-auto">
+      <div class="flex-grow w-full sm:flex sm:items-center sm:w-auto">
         <div class="text-sm sm:flex-grow">
           <router-link class="menu-item" to="/">Home</router-link>
         </div>
         <div>
           <router-link class="menu-item" to="/dashboards">Dashboards</router-link>
-          <router-link class="menu-item" to="/login">Inloggen</router-link>
-          <router-link class="menu-item" to="/register">Registreren</router-link>
         </div>
       </div>
     </div>
