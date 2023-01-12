@@ -51,7 +51,7 @@ const replaces = [
     console.log('Pushing to project...');
     await execa('git', ['push', 'origin', 'HEAD:project', '--force']);
     await execa('rm', ['-r', folderName]);
-    await execa('git', ['checkout', '-f', 'master']);
+    await execa('git', ['checkout', '-f', 'main']);
     await execa('git', ['branch', '-D', 'project']);
 
     // Revert file replaces that we did earlier
