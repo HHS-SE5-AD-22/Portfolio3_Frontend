@@ -24,7 +24,7 @@ const publicRoutes = [
 const routes = [...publicRoutes];
 
 const router = createRouter({
-  history: createWebHistory(createWebHistory('/project/'),),
+  history: createWebHistory('/Portfolio3_Frontend/'),
   routes
 });
 
