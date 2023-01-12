@@ -6,6 +6,7 @@ De Frontend voor de applicatie is geschreven in:
 
 * Taal: JavaScript
 * Framework: VueJS 3
+* URL: https://hhs-se5-ad-22.github.io/Portfolio3_Frontend/
 
 
 ---
@@ -43,9 +44,7 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-
 ```
-
 ```
 git subtree push --prefix dist origin gh-pages  
 ```
