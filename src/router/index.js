@@ -24,7 +24,7 @@ const publicRoutes = [
 const routes = [...publicRoutes];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(createWebHistory('/project/'),),
   routes
 });
 
