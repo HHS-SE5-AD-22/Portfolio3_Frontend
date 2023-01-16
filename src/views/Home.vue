@@ -22,10 +22,6 @@
         Nederland (en waarschijnlijk daarbuiten ook) in korte of langere termijn verandert. Met andere woorden: Je maakt zichtbaar of autobezitters, zowel zakelijk als privé, zich iets aantrekken van hun portemonnee. Door hier inzicht
         in te geven zou je daar als externe partij (overheid/bedrijfsleven) beleid op kunnen maken. Wij zijn van plan de uitkomsten van ons onderzoek openbaar te maken via de socials.
       </p>
-    <h3 class="page-content__header-3">Welke technologieën worden gebruikt om deze informatie op te halen?</h3>
-      <p class="page-content__paragraph">
-        To-do
-      </p>
   </div>
 </template>
 
