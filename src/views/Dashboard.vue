@@ -64,15 +64,15 @@ export default {
       switch (tabNumber) {
         case 1:
           viz = document.getElementById('tableauDescriptive');
-          src = "https://dub01.online.tableau.com/t/portfolio3/views/Descriptivelijndiagram2/Staafdiagram";
+          src = "https://dub01.online.tableau.com/t/hhsbigdata/views/Descriptivelijndiagram2/Staafdiagram";
           break;
         case 2:
           viz = document.getElementById('tableauDiagnostic');
-          src = "https://dub01.online.tableau.com/t/portfolio3/views/Diagnostischestaafdiagram/Staafdiagram";
+          src = "https://dub01.online.tableau.com/t/hhsbigdata/views/Diagnostischestaafdiagram/Staafdiagram";
           break;
         case 3:
           viz = document.getElementById('tableauPredictive');
-          src = "https://dub01.online.tableau.com/t/portfolio3/views/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen";
+          src = "https://dub01.online.tableau.com/t/hhsbigdata/views/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen/Geregistreerdevoertuigenelektrischenelektriciteitsprijzen";
           break;
       }
 
