@@ -64,7 +64,7 @@ export default {
       switch (tabNumber) {
         case 1:
           viz = document.getElementById('tableauDescriptive');
-          src = "https://dub01.online.tableau.com/t/hhsbigdata/views/Descriptivelijndiagram2/Staafdiagram";
+          src = "https://dub01.online.tableau.com/t/hhsbigdata/views/DescriptiveDiagram/Staafdiagram";
           break;
         case 2:
           viz = document.getElementById('tableauDiagnostic');
